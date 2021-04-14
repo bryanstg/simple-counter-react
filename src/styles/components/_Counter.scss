@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    width: 100;
+    height: 100vh;
+}
+.counter__box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 35vh;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 0.8rem;
+}
+.counter__box--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5.8rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #272626;
+    border-radius: 0.8rem;
+}
+.counter__box--icon img {
+    width: 3.5rem;
+    height: auto;
+    
+}
+.counter__box--number {
+    width: 5rem;
+    height: 5.8rem;
+    padding: 1rem;
+    margin: auto 1rem;
+    background-color: #272626;
+    font-family: 'Zen Dots', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 0.8rem;
+}
